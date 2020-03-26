@@ -1,0 +1,39 @@
+iniciar projeto 
+$ yarn init -y
+primeira lib
+$ yarn add express
+dependencia para servidor
+$ yarn add nodemon -D
+dependencia para conecção com banco
+$ yarn add mongoose
+dependencia para importar dados de imagens videos, etc
+$ yarn add multer
+
+criar frontend
+yarn create react-app frontend
+yarn start 
+chamar api backend com axios
+yarn add axios
+dependencia para controlar acesso ao backend: instalado no backend
+yarn add cors
+dependencia para controlar as rotas
+yarn add react-router-dom
+
+para aplicação mobile
+npm install -g expo-cli
+biblioteca para navegação dentro do react
+yarn add react-navigation
+bibliotecas para lidar com a navegação
+expo install react-native-gesture-handler react-native-reanimated
+chamar api backend com axios
+yarn add axios
+
+
+aula 04 - funcionalidades avançadas
+backend: 
+yarn add socket.io
+frontend:
+yarn add socket.io-client
+
+usar servidor redis para autenticação
+https://aws.amazon.com/pt/elasticache/what-is-redis/
