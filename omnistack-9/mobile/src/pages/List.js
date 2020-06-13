@@ -13,7 +13,7 @@ export default function List(){
             const techsArray = storagedTechs.split(',').map(tech => tech.trim());
             setTechs(techsArray);
         })
-    }, []);
+    }, []);  
     
     return (
         <SafeAreaView style={styles.container}>

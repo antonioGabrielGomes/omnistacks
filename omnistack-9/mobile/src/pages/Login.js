@@ -21,7 +21,7 @@ export default function Login({ navigation }){
         // email, techs
 
         const response = await api.post('/sessions', {
-            email
+            email  
         })
 
         const { _id } = response.data;
