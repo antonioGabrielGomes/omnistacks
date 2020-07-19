@@ -27,13 +27,28 @@ function SpotList({ tech, navigation }) {
         <View style={styles.container}>
             <Text style={styles.title} > Empresas que usam <Text style={styles.bold}> {tech} </Text> </Text>
         
+
+
+
+
             <FlatList 
+
                 style={styles.list}
+
+
                 data={spots}
+
+
                 keyExtractor={spot => spot._id}
+
+
                 horizontal
+
+
                 showsHorizontalScrollIndicator={false}
+
                 renderItem={ ( { item } ) => (
+
                     <View style={styles.listItem}>
                         <Image style={styles.thumbnail} source={{ uri: item.thumbnail_url }} />
                         <Text style={styles.company} >{item.company}</Text>
@@ -42,7 +57,15 @@ function SpotList({ tech, navigation }) {
                             <Text style={styles.buttonText} >Solicitar Reserva</Text>
                         </TouchableOpacity>
                     </View>
+                    
                 ) }
+
+
+
+
+
+
+
             />
        
         </View>
